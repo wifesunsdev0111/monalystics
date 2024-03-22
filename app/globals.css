@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --icon-fontSize-sm: 1rem;
+  --icon-fontSize-md: 1.25rem;
+  --icon-fontSize-lg: 1.5rem;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--mui-palette-primary-main);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal;
+}
+
+.inter-light {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-variation-settings: "slnt" 0 !important;
+}
+
+
+.inter-regular {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-variation-settings: "slnt" 0 !important;
+}
+
+
+
+.inter-medium {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  font-variation-settings: "slnt" 0 !important;
+}
+
+
+.inter-semibold {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-variation-settings: "slnt" 0 !important;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-variation-settings: "slnt" 0 !important;
+}
+
+.mui-sgldd2-MuiTypography-root {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-variation-settings: "slnt" 0 !important;
+  font-size: 1rem !important;
+}
+
+.textarea-style {
+  width: 100%;
+  height: 25vh;
+  border: 1px solid #C4CBDE !important;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* .mui-1oscdf3-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: #FFFFFF;
+  border-radius: 40px !important;
+} */
+
+
+.MuiAutocomplete-hasPopupIcon.mui-g6b2ob-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.mui-g6b2ob-MuiAutocomplete-root .MuiOutlinedInput-root {
+  border-radius: 30px;
+}
+
+.MuiAutocomplete-hasPopupIcon.mui-52llsg-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.mui-52llsg-MuiAutocomplete-root .MuiOutlinedInput-root {
+  border-radius: 30px;
+}
