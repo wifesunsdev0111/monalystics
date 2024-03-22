@@ -95,7 +95,7 @@ export function CampaignProcess({
           <Stack spacing={5}>
             <Box sx={{ width: "100%" }}>
               <Grid container spacing={2}>
-                <Grid lg={3} md={6} xs={12}>
+                <Grid lg="auto" md={6} xs={12}>
                   <FormControlLabel
                     sx={{ color: "#162447", fontSize: "0.65rem" }}
                     className="inter-light"
@@ -107,7 +107,7 @@ export function CampaignProcess({
                     label="Instagram"
                   />
                 </Grid>
-                <Grid lg={3} md={6} xs={12}>
+                <Grid lg="auto" md={6} xs={12}>
                   <FormControlLabel
                     sx={{ color: "#162447", fontSize: "0.65rem" }}
                     className="inter-light"
@@ -119,7 +119,7 @@ export function CampaignProcess({
                     label="Twitter"
                   />
                 </Grid>
-                <Grid lg={3} md={6} xs={12}>
+                <Grid lg="auto" md={6} xs={12}>
                   <FormControlLabel
                     sx={{ color: "#162447", fontSize: "0.65rem" }}
                     className="inter-light"
@@ -131,7 +131,7 @@ export function CampaignProcess({
                     label="Linkedin"
                   />
                 </Grid>
-                <Grid lg={3} md={6} xs={12}>
+                <Grid lg="auto" md={6} xs={12}>
                   <FormControlLabel
                     sx={{ color: "#162447", fontSize: "0.65rem" }}
                     className="inter-light"
@@ -143,7 +143,7 @@ export function CampaignProcess({
                     label="Snapchat"
                   />
                 </Grid>
-                <Grid lg={3} md={6} xs={12}>
+                <Grid lg="auto" md={6} xs={12}>
                   <FormControlLabel
                     sx={{ color: "#162447", fontSize: "0.65rem" }}
                     className="inter-light"
@@ -155,7 +155,7 @@ export function CampaignProcess({
                     label="Facebook"
                   />
                 </Grid>
-                <Grid lg={3} md={6} xs={12}>
+                <Grid lg="auto" md={6} xs={12}>
                   <FormControlLabel
                     sx={{ color: "#162447", fontSize: "0.65rem" }}
                     className="inter-light"

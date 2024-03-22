@@ -84,7 +84,7 @@ const brands = [
 export default function Page(): React.JSX.Element {
   return (
     <Grid container spacing={3}>
-      <Grid lg={4} md={8} xs={12} sx={{ paddingTop: "0" }}>
+      <Grid lg={4} md={6} xs={12} sx={{ paddingTop: "0" }}>
         <FormControl className="inter-semibold" sx={{ width: "100%" }}>
           <InputLabel>Timeframe: All</InputLabel>
           <OutlinedInput
@@ -107,7 +107,7 @@ export default function Page(): React.JSX.Element {
       <Grid lg={3} md={6} xs={12} sx={{ paddingTop: "0" }}>
         <Chanells></Chanells>
       </Grid>
-      <Grid lg={2} md={4} xs={12} sx={{ paddingTop: "0" }}>
+      <Grid lg={2} md={6} xs={12} sx={{ paddingTop: "0" }}>
         <CountrySelect></CountrySelect>
       </Grid>
       <Grid lg={6} xs={12}>

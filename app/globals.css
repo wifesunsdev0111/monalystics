@@ -139,3 +139,7 @@ body {
 .MuiAutocomplete-hasPopupIcon.mui-52llsg-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.mui-52llsg-MuiAutocomplete-root .MuiOutlinedInput-root {
   border-radius: 30px;
 }
+
+.MuiAutocomplete-hasPopupIcon.mui-16k44ws-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.mui-16k44ws-MuiAutocomplete-root .MuiOutlinedInput-root {
+  border-radius: 30px;
+}

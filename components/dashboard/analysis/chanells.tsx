@@ -10,7 +10,7 @@ export default function Chanells() {
       disablePortal
       id="combo-box-demo"
       options={chanells}
-      sx={{ width: 300, borderRadius: 30 }}
+      sx={{ borderRadius: 30 }}
       renderInput={(params) => <TextField {...params} label="Chanells" />}
     />
   );
